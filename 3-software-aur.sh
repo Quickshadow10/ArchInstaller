@@ -19,14 +19,16 @@ PKGS=(
 
     'i3lock-fancy'              # Screen locker
     'timeshift'                 # Backup and Restore
+	'handbrake-full'            # Multithreaded video transcoder
 
     # COMMUNICATIONS ------------------------------------------------------
 
-    'brave-bin'                 # Brave
+    'firefox'                   # Firefox Browser
 
     # THEMES --------------------------------------------------------------
 
-    'lightdm-webkit-theme-aether'   # Lightdm Login Theme - https://github.com/NoiSek/Aether#installation
+	'web-greeter'                   # Lightdm Greeter
+    'shikai-theme'                  # Lightdm Login Theme - https://github.com/TheWisker/Shikai
     'materia-gtk-theme'             # Desktop Theme
     'papirus-icon-theme'            # Desktop Icons
     'capitaine-cursors'             # Cursor Icons
@@ -35,7 +37,7 @@ PKGS=(
     # APPS ----------------------------------------------------------------
 
     'discord'                       # Chat for gamers
-    'youtubemusic-nativefier'        # Music
+    'spotify'                       # Music
 
 )
 
