@@ -2,7 +2,7 @@
 
 #Ask for drive to partition/edit
 echo "Please enter drive to edit."
-echo "Example: ${drive}"
+echo "Example: /dev/sda"
 read drive
 
 #Ask for Hostname
