@@ -97,6 +97,13 @@ sudo systemctl enable cronie
 sudo systemctl enable cronie.service
 
 # ------------------------------------------------------------------------
+echo
+echo "Configuring Greeter"
+# edit /etc/lightdm/lightdm.conf to uncomment and configur greeter-session to be "greeter-session=web-greeter"
+# Select Shikai them in /etc/lightdm/web-greeter.yml, under branding set theme to shikai: "theme: shikai"
+
+
+# --------------------------------------------------------------------------
 
 echo
 sudo ntpd -qg
